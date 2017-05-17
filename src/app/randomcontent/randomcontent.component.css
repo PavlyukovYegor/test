@@ -1,0 +1,12 @@
+.body_car{
+  height: 550px;
+  white-space: nowrap;
+  overflow-x: scroll;
+}
+
+.item_car{
+  display: inline-block;
+  white-space: nowrap;
+  margin-left: 15px;
+  margin-right: 15px;
+}

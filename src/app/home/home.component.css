@@ -1,0 +1,14 @@
+.slider_control {
+  background-color: rgba(73, 77, 77, 0.5);
+  height: 550px;
+}
+
+.slider_control:hover{
+  background-color: rgba(73, 77, 77, 0.7);
+}
+
+.flexing {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

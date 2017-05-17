@@ -1,0 +1,8 @@
+<div class="row">
+  <div class="col-md-12 ">
+    <h1>Картинки, которые участвовали в слайдере:</h1>
+  </div>
+  <div class="col-md-10 col-md-offset-1 body_car">
+    <img *ngFor="let image of this.images, let i = index" src={{image}} class="item_car" />
+  </div>
+</div>

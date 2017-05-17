@@ -1,0 +1,19 @@
+<div class="row">
+  <div class="col-md-1 slider_control flexing" (click)="counterDec()">
+    <img src="../../assets/left-arrow.png" class="floating_image" alt="">
+  </div>
+  <div class="slider col-md-10 flexing ">
+    <!-- <div *ngFor="let image of this.images, let i = index"> -->
+      <!-- <img *ngFor="let image of this.images, let i = index" src={{image}}/> -->
+    <!-- </div> -->
+    <img src={{imageSRC}} alt="">
+  </div>
+  <div class="col-md-1 slider_control flexing" (click)="counterInc()">
+    <img src="../../assets/right-arrow.png" class="floating_image" alt="">
+  </div>
+</div>
+<div class="row">
+  <h1>Reload after....   {{reloadCount}}</h1>
+</div>
+<!-- Картинки можно было сделать через *ngFor="#item of items, #i = index",
+но я не работал еще c ngSwitch, по этому решил сделать так -->
